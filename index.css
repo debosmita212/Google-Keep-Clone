@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    
+    padding: 13px;
+    background-color: #4b4b53;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+}
+a:hover{
+    color: rgb(16, 16, 15);
+}
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    padding: 23px;
+    background-color: #292a2d;
+
+}
+#input-box{
+    border: 1px solid white;
+    padding: 23px;
+    border-radius: 20px;
+}
+input,textarea{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-top: 6px;
+    color: white;
+}
+#dueDate{
+    width: 20%;
+    color:black;
+    font-size: large;
+    background-color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+button{
+    background: transparent;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+button:hover{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+#notes,#deleted-notes,#archived-notes{
+    padding: 23px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.note{
+    border: 1px solid white;
+    width: 300px;
+    padding: 12px;
+    color: #a1a0a0;
+    margin: 12px;
+    border-radius: 20px;
+}
+.title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.buttons{
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.deleteNote,.restoreNote,.archiveNote,.editNote{
+    float: right;
+    margin-bottom: 8px;
+}
+.deleteNote:hover{
+    background-color: red;
+    font-weight: bold;
+}
+.archiveNote:hover{
+    background-color: yellow;
+    font-weight: bold;
+    color: black;
+}
+.restoreNote:hover,.editNote:hover{
+    background-color: greenyellow;
+    font-weight: bold;
+    color: black;
+}
