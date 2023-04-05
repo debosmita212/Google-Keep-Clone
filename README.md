@@ -1,5 +1,5 @@
 # Google-Keep-Clone
-##Features:
+## Features:
 * Add Notes with title and text with a deadline
 * Deleting Notes
 * Deleted Note Section(Stores the deleted notes so that they can be restored afterwards)
